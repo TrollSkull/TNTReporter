@@ -9,6 +9,8 @@ Lightweight plugin that detects and notify if the player has `broken/placed/coll
 - [License](#-license)
 
 ## ✨ Features
+### Very lightweight and friendly with low-resource servers.
+- The plugin has a clean and lightweight code `( 9kb )` which uses few server resources.
 
 ## 📸 Screenshots & Media
 
