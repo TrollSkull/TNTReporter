@@ -26,13 +26,13 @@ I usually use [Visual Studio Code](https://code.visualstudio.com/), therefore it
 
 Move 
 
-<img src="/.assets/add-path.png" width="600" height="338"/>
+<img src="/.assets/add-path.png" width="700" height="538"/>
 
-<img src="/.assets/environment-variable.png" width="600" height="338"/>
+<img src="/.assets/environment-variable.png" width="700" height="538"/>
 
-<img src="/.assets/path-var.png" width="600" height="338"/>
+<img src="/.assets/path-var.png" width="700" height="538"/>
 
-<img src="/.assets/compile-help.png" width="600" height="338"/>
+<img src="/.assets/compile-help.png" width="700" height="538"/>
 
 ## 🔧 How can I contribute?
 > **Note**
