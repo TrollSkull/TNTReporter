@@ -29,5 +29,11 @@ I usually use [Visual Studio Code](https://code.visualstudio.com/), therefore it
 
 ### Creating new features
 
+### Translations
+
+### Bugfix
+
+### Fixing typos
+
 ## 📝 License
 **MIT License © TNT Reporter**, see the full license at **[LICENSE](https://github.com/TrollSkull/TNT-Reporter/blob/main/LICENSE)**.
