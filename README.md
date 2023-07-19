@@ -12,6 +12,9 @@ Lightweight plugin that detects and notify if the player has `broken/placed/coll
 ### Very lightweight and friendly with low-resource servers.
 - The plugin has a clean and lightweight code `( 9kb )` which uses few server resources.
 
+### highly customizable
+- si
+
 ## 📸 Screenshots & Media
 
 ## 📦 Compiling
