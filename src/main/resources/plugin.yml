@@ -5,6 +5,9 @@ main: ${mainClass}
 version: ${version}
 url: ${url}
 commands:
-  example:
-    aliases: ["none"]
-    description: "This command does nothing."
+  tntreport:
+    description: Show the TNT report!
+    permission: ServerOperator
+  tntreload:
+    description: Reload plugin!
+    permission: ServerOperator
