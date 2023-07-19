@@ -13,9 +13,14 @@ Lightweight plugin that detects and notify if the player has `broken/placed/coll
 ## 📸 Screenshots
 
 ## 📦 Compiling
+> **Warning**
+> 
+> First you need to download some resources such as [Maven](https://maven.apache.org/) and [Java SE 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
 ## 🔧 How can I contribute?
-Please read **[CONTRIBUTING](https://github.com/TrollSkull/MBmanager/blob/main/CONTRIBUTING.md)** and thank you for the help!
+> **Note**
+>
+> Please read **[CONTRIBUTING](https://github.com/TrollSkull/MBmanager/blob/main/CONTRIBUTING.md)** and thank you for the help!
 
 ### New features
 
