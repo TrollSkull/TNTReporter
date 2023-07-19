@@ -10,6 +10,8 @@ Lightweight plugin that detects and notify if the player has `broken/placed/coll
 
 ## ✨ Features
 
+## 📸 Screenshots
+
 ## 📦 Compiling
 
 ## 🔧 How can I contribute?
