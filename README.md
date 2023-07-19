@@ -32,7 +32,7 @@ Move
 
 <img src="/.assets/path-var.png" width="700" height="538"/>
 
-<img src="/.assets/compile-help.png" width="700" height="538"/>
+<img src="/.assets/compile-help.png" width="700" height="438"/>
 
 ## 🔧 How can I contribute?
 > **Note**
