@@ -1,0 +1,5 @@
+# Language file for plugin TNTReporter.
+
+prefix: '[TNT Reporter]'
+tnt-placed-message: 
+tnt-broken-message: 
