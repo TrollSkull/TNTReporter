@@ -8,6 +8,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.Listener;
 import org.bukkit.entity.Player;
+import java.text.MessageFormat;
 import org.bukkit.block.Block;
 import org.bukkit.Material;
 import org.bukkit.Bukkit;
@@ -22,6 +23,11 @@ public class Events implements Listener {
             return;
 
         Player player = event.getPlayer();
+        String playerName = player.getName();
+ 
+        int currentCount = Main.tntBrokenByPlayers.getOrDefault(playerName, 0);
+        Main.tntBrokenByPlayers.put(playerName, currentCount + 1);
+
         logCoordinates(block, "has broken", player);
     }
 
@@ -58,20 +64,11 @@ public class Events implements Listener {
         int y = block.getLocation().getBlockY();
         int z = block.getLocation().getBlockZ();
 
-        StringBuilder message = new StringBuilder();
-        message.append(Main.prefix)
-                .append("Player '")
-                .append(player.getName())
-                .append("' ")
-                .append(action)
-                .append(" TNT on [")
-                .append(x)
-                .append(", ")
-                .append(y)
-                .append(", ")
-                .append(z)
-                .append("] !");
-                
-        Bukkit.getServer().getConsoleSender().sendMessage(message.toString());
+        String pattern = "{0}Player '{1}' {2} TNT on [{3}, {4}, {5}] !";
+        String message = MessageFormat.format(
+            pattern, Main.prefix, player.getName(), action, x, y, z);
+
+        Bukkit.getServer().getConsoleSender().sendMessage(message);
+        Main.sendWarnToAdmin(message);
     }
 }
