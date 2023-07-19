@@ -10,7 +10,7 @@ Lightweight plugin that detects and notify if the player has `broken/placed/coll
 
 ## ✨ Features
 
-## 📸 Screenshots
+## 📸 Screenshots & Media
 
 ## 📦 Compiling
 First you need to download some requirements such as [Maven](https://maven.apache.org/) and [Java SE 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
