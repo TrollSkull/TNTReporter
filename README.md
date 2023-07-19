@@ -24,6 +24,8 @@ First you need to download some requirements such as [Maven](https://maven.apach
 
 I usually use [Visual Studio Code](https://code.visualstudio.com/), therefore it will be the IDE in which we will be compiling with Maven.
 
+la cosa de los path
+
 ## 🔧 How can I contribute?
 > **Note**
 >
