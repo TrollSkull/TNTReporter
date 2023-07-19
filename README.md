@@ -1,8 +1,9 @@
-# TNT Reporter 🧨 
+# TNT Reporter 🧨!
 Lightweight plugin that detects and notify if the player has `broken/placed/collected` TNT blocks.
 
 ### 🧾 Table of content
 - [Features](#-features)
+- [Screenshots](#-screenshots)
 - [Contributing](#-how-can-i-contribute)
     - [New features](#new-features)
 - [License](#-license)
