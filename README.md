@@ -1,11 +1,11 @@
 # TNT Reporter 🧨!
-Lightweight plugin that detects and notify if the player has `broken/placed/collected` TNT blocks.
+Lightweight plugin that detects and notify if the player has `broken/placed/collected or activated` TNT blocks.
 
 Also this plugin can block active TNT blocks and prevent the explosion, check [Features](#-features) for more info!
 
 ### 🧾 Table of content
 - [Features](#-features)
-- [Screenshots](#-screenshots)
+- [Screenshots](#-screenshots--media)
 - [Contributing](#-how-can-i-contribute)
     - [New features](#creating-new-features)
 - [License](#-license)
@@ -14,8 +14,8 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 ### Very lightweight and friendly with low-resource servers.
 - The plugin has a clean and lightweight code `( 9kb )` which uses few server resources.
 
-### highly customizable
-- si
+### Highly customizable
+- You can create or download translation files for this plugin, check translation folders and [Translations] for more info.
 
 ## 📸 Screenshots & Media
 
