@@ -24,7 +24,9 @@ First you need to download some requirements such as [Maven](https://maven.apach
 
 I usually use [Visual Studio Code](https://code.visualstudio.com/), therefore it will be the IDE in which we will be compiling with Maven.
 
-Move 
+Also I will be using Windows 10. :)
+
+Move the extracted Maven folder where you want, then inside the folder there will be a folder called bin, copy the route and add it to the path.
 
 <img src="/.assets/compile-help.png" width="700" height="438"/>
 
