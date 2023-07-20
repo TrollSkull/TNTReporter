@@ -11,7 +11,7 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 - [License](#-license)
 
 ## ✨ Features
-### Very lightweight and friendly with low-resource servers.
+- ### Very lightweight and friendly with low-resource servers.
 - The plugin has a clean and lightweight code `( 9kb )` which uses few server resources.
 
 ### Highly customizable.
