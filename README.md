@@ -28,7 +28,7 @@ I usually use [Visual Studio Code](https://code.visualstudio.com/), therefore it
 
 Move the extracted Maven folder where you want, then inside the folder there will be a folder called bin, copy the route and add it to the path.
 
-<img src="/.assets/compile-help.png" width="700" height="438"/>
+<img src="/.assets/compile-help.png" width="620" height="388"/>
 
 ## 🔧 How can I contribute?
 > **Note**
