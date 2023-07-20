@@ -12,7 +12,7 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 
 ## ✨ Features
 - ### Very lightweight and friendly with low-resource servers.
-- The plugin has a clean and lightweight code `( 9kb )` which uses few server resources.
+     The plugin has a clean and lightweight code `( 9kb )` which uses few server resources.
 
 ### Highly customizable.
 - You can create or download translation files for this plugin, check translation folders and [Translations] for more info.
