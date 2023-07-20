@@ -1,4 +1,4 @@
-# TNT Reporter 🧨!
+# 🧨 TNT Reporter
 Lightweight plugin that detects and notify if the player has `broken/placed/collected or activated` TNT blocks.
 
 Also this plugin can block active TNT blocks and prevent the explosion, check [Features](#-features) for more info!
@@ -25,12 +25,6 @@ First you need to download some requirements such as [Maven](https://maven.apach
 I usually use [Visual Studio Code](https://code.visualstudio.com/), therefore it will be the IDE in which we will be compiling with Maven.
 
 Move 
-
-<img src="/.assets/add-path.png" width="700" height="538"/>
-
-<img src="/.assets/environment-variable.png" width="700" height="538"/>
-
-<img src="/.assets/path-var.png" width="700" height="538"/>
 
 <img src="/.assets/compile-help.png" width="700" height="438"/>
 
