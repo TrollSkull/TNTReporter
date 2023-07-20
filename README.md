@@ -11,11 +11,13 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 - [License](#-license)
 
 ## ✨ Features
-- ### Very lightweight and friendly with low-resource servers.
+- ### ⚡ Very lightweight and friendly with low-resource servers.
      The plugin has a clean and lightweight code `( 9kb )` which uses few server resources.
 
-### Highly customizable.
-- You can create or download translation files for this plugin, check translation folders and [Translations] for more info.
+- ### 🔩 Highly customizable.
+     You can create or download translation files for this plugin, check translation folders and [Translations] for more info.
+
+- ### 📚 Modular.
 
 ## 📸 Screenshots & Media
 
@@ -23,8 +25,6 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 First you need to download some requirements such as [Maven](https://maven.apache.org/) and [Java SE 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 
 I usually use [Visual Studio Code](https://code.visualstudio.com/), therefore it will be the IDE in which we will be compiling with Maven.
-
-Also I will be using Windows 10. :)
 
 Move the extracted Maven folder where you want, then inside the folder there will be a folder called bin, copy the route and add it to the path.
 
