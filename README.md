@@ -6,14 +6,14 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 ### 🧾 Table of content
 - [Features](#-features)
     - [Lightweight and Friendly](#)
-    - [Customizable](#-highly-customizable)
+    - [Highly ustomizable](#-highly-customizable)
     - [Modular](#-modular)
 - [Screenshots](#-screenshots--media)
 - [Contributing](#-how-can-i-contribute)
-    - [New features](#creating-new-features)
+    - [Creating new features](#creating-new-features)
     - [Translations](#-translations)
     - [Bugfix](#-bugfix)
-    - [Typos](#-fixing-typos)
+    - [Fixing ypos](#-fixing-typos)
 - [License](#-license)
 
 ## ✨ Features
