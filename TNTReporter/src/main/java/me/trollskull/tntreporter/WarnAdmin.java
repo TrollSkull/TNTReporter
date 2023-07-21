@@ -40,7 +40,6 @@ public class WarnAdmin {
         coordsComponent.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/tp @s " + x + " " + y + " " + z));
         clickableMessage.addExtra(coordsComponent);
         clickableMessage.addExtra(ChatColor.WHITE + " !");
-
         customMessage += ChatColor.GREEN + " [" + x + ", " + y + ", " + z + "]" + ChatColor.WHITE + " !";
 
         Bukkit.getServer().getConsoleSender().sendMessage(customMessage);
