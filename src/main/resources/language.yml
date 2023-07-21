@@ -1,0 +1,7 @@
+# Language file for plugin TNTReporter.
+tntreporter-tnt-broken-header: '&fTNT broken by players:'
+tntreporter-tnt-placed-header: '&fTNT placed by players:'
+on-click-message: "&fPlayer %player% has activated TNT on &f"
+on-place-message: "&fPlayer %player% has placed TNT on &f"
+on-break-message: "&fPlayer %player% has broken TNT on &f"
+on-player-interact-message: "&fPlayer %player% interacted with TNT on &f"
