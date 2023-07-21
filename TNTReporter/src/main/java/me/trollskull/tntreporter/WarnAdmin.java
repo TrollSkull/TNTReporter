@@ -42,8 +42,8 @@ public class WarnAdmin {
         clickableMessage.addExtra(ChatColor.WHITE + " !");
 
         customMessage += ChatColor.GREEN + " [" + x + ", " + y + ", " + z + "]" + ChatColor.WHITE + " !";
-        Bukkit.getServer().getConsoleSender().sendMessage(customMessage);
 
+        Bukkit.getServer().getConsoleSender().sendMessage(customMessage);
         main.sendWarnToAdmin(new TextComponent(clickableMessage));
     }
 }
