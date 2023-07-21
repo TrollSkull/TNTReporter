@@ -35,13 +35,13 @@ Move the extracted Maven folder where you want, then inside the folder there wil
 >
 > Please read **[CONTRIBUTING](https://github.com/TrollSkull/MBmanager/blob/main/CONTRIBUTING.md)** and thank you for the help!
 
-### Creating new features
+- ### 💡 Creating new features
 
-### Translations
+- ### 🈸 Translations
 
-### Bugfix
+- ### 🐛 Bugfix
 
-### Fixing typos
+- ### ✒️ Fixing typos
 
 ## 📝 License
 **MIT License © TNT Reporter**, see the full license at **[LICENSE](https://github.com/TrollSkull/TNT-Reporter/blob/main/LICENSE)**.
