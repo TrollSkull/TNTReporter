@@ -26,7 +26,7 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 - ### 📚 Modular.
      Code easy to maintain and update, each function/feature has its own class separated by files (Modules), making it possible to include these modules in other plugins.
 
-- ### 🔥 Prevent anda moderate griefing.
+- ### 🔥 Prevent and moderate griefing.
 
 ## 📸 Screenshots & Media
 
