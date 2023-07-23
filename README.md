@@ -39,7 +39,14 @@ I usually use [Visual Studio Code](https://code.visualstudio.com/), therefore it
 
 Move the extracted Maven folder where you want, then inside the folder there will be a folder called bin, copy the route and add it to the path.
 
+Then open the project folder (TNTReporter), which inside has the `/src` folder and the `pom.xml` file.
+In the lower left corner you should see a drop-down menu called "Maven", in that menu our project will appear.
+
 <img src="/.assets/compile-help.png" width="620" height="388"/>
+
+Then you simply have to `Right Click > Run Maven Commands > Install`.
+
+Once the project has been compiled a folder called `/target` should have been created, inside that folder you will find the compiled plugin (tntreporter.jar).
 
 ## 🔧 How can I contribute?
 Please read **[CONTRIBUTING](https://github.com/TrollSkull/MBmanager/blob/main/CONTRIBUTING.md)** and thank you for the help!
