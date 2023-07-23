@@ -19,13 +19,13 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 
 ## ✨ Features
 - ### 🔥 Prevent and moderate griefing.
-      pr
+     Deny the use of TNT and its explosion with this plugin, it also detects the users who placed and destroyed TNT.
 
 - ### ⚡ Very lightweight and friendly with low-resource servers.
      The plugin has a clean and lightweight code `( 9kb )` which uses few server resources.
 
 - ### 🔩 Highly customizable.
-     You can create or download translation files for this plugin, check translation folders and [Translations] for more info.
+     You can create or download translation files for this plugin, check translation folders and [Translations](#-translations) for more info.
 
 - ### 📚 Modular.
      Code easy to maintain and update, each function/feature has its own class separated by files (Modules), making it possible to include these modules in other plugins.
