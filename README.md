@@ -9,14 +9,18 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
     - [Highly ustomizable](#-highly-customizable)
     - [Modular](#-modular)
 - [Screenshots](#-screenshots--media)
+- [Compiling](#-compiling)
 - [Contributing](#-how-can-i-contribute)
-    - [Creating new features](#creating-new-features)
+    - [Creating new features](#-creating-new-features)
     - [Translations](#-translations)
     - [Bugfix](#-bugfix)
-    - [Fixing ypos](#-fixing-typos)
+    - [Fixing typos](#%EF%B8%8F-fixing-typos)
 - [License](#-license)
 
 ## ✨ Features
+- ### 🔥 Prevent and moderate griefing.
+      pr
+
 - ### ⚡ Very lightweight and friendly with low-resource servers.
      The plugin has a clean and lightweight code `( 9kb )` which uses few server resources.
 
@@ -25,8 +29,6 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 
 - ### 📚 Modular.
      Code easy to maintain and update, each function/feature has its own class separated by files (Modules), making it possible to include these modules in other plugins.
-
-- ### 🔥 Prevent and moderate griefing.
 
 ## 📸 Screenshots & Media
 
