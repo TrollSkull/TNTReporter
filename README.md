@@ -42,9 +42,7 @@ Move the extracted Maven folder where you want, then inside the folder there wil
 <img src="/.assets/compile-help.png" width="620" height="388"/>
 
 ## 🔧 How can I contribute?
-> **Note**
->
-> Please read **[CONTRIBUTING](https://github.com/TrollSkull/MBmanager/blob/main/CONTRIBUTING.md)** and thank you for the help!
+Please read **[CONTRIBUTING](https://github.com/TrollSkull/MBmanager/blob/main/CONTRIBUTING.md)** and thank you for the help!
 
 - ### 💡 Creating new features
 
