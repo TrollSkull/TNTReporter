@@ -3,7 +3,7 @@ Lightweight plugin that detects and notify if the player has `broken/placed/coll
 
 Also this plugin can block active TNT blocks and prevent the explosion, check [Features](#-features) for more info!
 
-### 🧾 Table of content
+### 🔗 Table of content.
 - [Features](#-features)
     - [Lightweight and Friendly](#-very-lightweight-and-friendly-with-low-resource-servers)
     - [Highly ustomizable](#-highly-customizable)
@@ -29,6 +29,13 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 
 - ### 📚 Modular.
      Code easy to maintain and update, each function/feature has its own class separated by files (Modules), making it possible to include these modules in other plugins.
+
+## 📖 Commands and permissions
+| Command              | Description         | Permission         |
+| -------------------- | ------------------- | ------------------ |
+| /tntreporter help    | Display a help menu | tntreporter.help   |
+| /tntreporter reload  | Content Cell        | tntreporter.report |
+| /tntreporter report  | Content Cell        | none               |
 
 ## 📸 Screenshots & Media
 
