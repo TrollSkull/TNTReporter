@@ -38,6 +38,7 @@ Also this plugin can block active TNT blocks and prevent the explosion, check [F
 | /tntreporter report  | Content Cell        | none               |
 
 ## 📸 Screenshots & Media
+<img src="/.assets/demo.gif" width="600" height="338"/>
 
 ## 📦 Compiling
 First you need to download some requirements such as [Maven](https://maven.apache.org/) and [Java SE 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
