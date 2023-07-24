@@ -1,7 +1,8 @@
 # Language file for plugin TNTReporter.
-tntreporter-tnt-broken-header: '&fTNT broken by players:'
-tntreporter-tnt-placed-header: '&fTNT placed by players:'
-on-click-message: "&fPlayer %player% has activated TNT on &f"
-on-place-message: "&fPlayer %player% has placed TNT on &f"
-on-break-message: "&fPlayer %player% has broken TNT on &f"
-on-player-interact-message: "&fPlayer %player% interacted with TNT on &f"
+# Be careful with the %player% part, the player's name will be displayed there
+tntreporter-tnt-broken-header: 'TNT broken by players:'
+tntreporter-tnt-placed-header: 'TNT placed by players:'
+on-click-message: "Player %player% has activated TNT on "
+on-place-message: "Player %player% has placed TNT on "
+on-break-message: "Player %player% has broken TNT on "
+on-player-interact-message: "Player %player% interacted with TNT on "

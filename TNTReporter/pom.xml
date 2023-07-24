@@ -8,9 +8,9 @@
 
     <!-- Plugin Information -->
     <name>TNTReporter</name>
-    <description>Lightweight plugin that detects and notify if the player has broken/placed/collected TNT blocks.</description>
-    <version>0.1.0</version>
-    <url>https://github.com/TrollSkull/TNT-Reporter</url>
+    <description>Lightweight plugin that detects and notify if the player has broken/placed/collected or activated TNT blocks.</description>
+    <version>0.1</version>
+    <url>https://github.com/TrollSkull/TNTReporter</url>
 
     <properties>
         <author>TrollSkull</author>

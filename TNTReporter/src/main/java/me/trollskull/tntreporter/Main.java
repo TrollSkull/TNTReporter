@@ -20,29 +20,35 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("TNT Reporter is enabled! [v0.0.34]");
+        getLogger().info("TNT Reporter is enabled! [v0.1]");
 
+        // Initialize the LanguageManager and load language files.
         languageManager = new LanguageManager(this);
         languageManager.loadLanguage();
 
+        // Initialize the WarnAdmin class to handle warning messages to administrators.
         warnAdmin = new WarnAdmin(this, languageManager);
 
+        // Register events for TNT-related interactions.
         getServer().getPluginManager().registerEvents(new EventTNTBroken(this, warnAdmin), this);
         getServer().getPluginManager().registerEvents(new EventTNTPlaced(this, warnAdmin), this);
         getServer().getPluginManager().registerEvents(new EventTNTActivated(this, warnAdmin), this);
 
+        // Save the default configuration file if it does not exist.
         saveDefaultConfig();
         config = getConfig();
     }
 
+    // Send warning messages to administrators.
     @Override
     public void onDisable() {
         getLogger().info("TNT Reporter is disabled.");
     }
 
+    // Send warning messages to administrators.
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (command.getName().equalsIgnoreCase("tntreport")) {
+        if (command.getName().equalsIgnoreCase("tntreporter report")) {
             sender.sendMessage("TNT Report:");
             sender.sendMessage("TNT broken by players:");
             for (Map.Entry<String, Integer> entry : tntBrokenByPlayers.entrySet()) {
@@ -59,7 +65,8 @@ public class Main extends JavaPlugin {
             }
 
             return true;
-        } else if (command.getName().equalsIgnoreCase("tntreload") && sender.hasPermission("tntreporter.reload")) {
+        } else if (command.getName().equalsIgnoreCase("tntreporter reload") && sender.hasPermission("tntreporter.reload")) {
+            // Reload the configuration file.
             reloadConfig();
             config = getConfig();
             sender.sendMessage("TNT Reporter configuration reloaded.");
@@ -68,6 +75,7 @@ public class Main extends JavaPlugin {
         return false;
     }
 
+    // Send warning messages to administrators.
     public void sendWarnToAdmin(BaseComponent... components) {
         for (Player player : Bukkit.getOnlinePlayers()) {
             if (player.hasPermission("ServerOperator")) {

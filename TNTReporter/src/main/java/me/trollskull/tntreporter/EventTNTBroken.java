@@ -12,11 +12,14 @@ public class EventTNTBroken implements Listener {
     public Main main;
     private WarnAdmin warnAdmin;
 
+    // Constructor for the EventTNTBroken class.
     public EventTNTBroken(Main main, WarnAdmin warnAdmin) {
         this.main = main;
         this.warnAdmin = warnAdmin;
     }
 
+    // Event handler for BlockBreakEvent.
+    // This method is called whenever a player breaks a block.
     @EventHandler
     public void onBlockBreak(BlockBreakEvent event) {
         Block block = event.getBlock();
@@ -33,6 +36,7 @@ public class EventTNTBroken implements Listener {
         int currentCount = Main.tntBrokenByPlayers.getOrDefault(playerName, 0);
         Main.tntBrokenByPlayers.put(playerName, currentCount + 1);
         
+        // Send warning message to administrators about the broken TNT
         warnAdmin.sendMessage(playerName, player, "broken", x, y, z);
     }
 }
