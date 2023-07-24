@@ -2,6 +2,7 @@ package me.trollskull.tntreporter;
 
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.entity.Player;
 import org.bukkit.block.Block;
@@ -20,7 +21,7 @@ public class EventTNTBroken implements Listener {
 
     // Event handler for BlockBreakEvent.
     // This method is called whenever a player breaks a block.
-    @EventHandler
+    @EventHandler(priority = EventPriority.HIGH)
     public void onBlockBreak(BlockBreakEvent event) {
         Block block = event.getBlock();
         if (block == null || block.getType() != Material.TNT) 

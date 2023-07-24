@@ -30,9 +30,10 @@ public class Main extends JavaPlugin {
         warnAdmin = new WarnAdmin(this, languageManager);
 
         // Register events for TNT-related interactions.
+        getServer().getPluginManager().registerEvents(new EventTNTActivated(this, warnAdmin), this);
         getServer().getPluginManager().registerEvents(new EventTNTBroken(this, warnAdmin), this);
         getServer().getPluginManager().registerEvents(new EventTNTPlaced(this, warnAdmin), this);
-        getServer().getPluginManager().registerEvents(new EventTNTActivated(this, warnAdmin), this);
+        getServer().getPluginManager().registerEvents(new EventPrimedTNT(), this);
 
         // Save the default configuration file if it does not exist.
         saveDefaultConfig();

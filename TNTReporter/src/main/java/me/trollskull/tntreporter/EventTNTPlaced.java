@@ -2,37 +2,26 @@ package me.trollskull.tntreporter;
 
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.entity.Player;
 import org.bukkit.block.Block;
 import org.bukkit.Material;
 
-/**
- * Listener class to handle TNT placed events.
- */
 public class EventTNTPlaced implements Listener {
 
     public Main main;
     private WarnAdmin warnAdmin;
 
-    /**
-     * Constructor for the EventTNTPlaced class.
-     * 
-     * @param main      The main plugin class instance.
-     * @param warnAdmin The WarnAdmin instance to send warning messages.
-     */
+    // Constructor for the EventTNTPlaced class.
     public EventTNTPlaced(Main main, WarnAdmin warnAdmin) {
         this.main = main;
         this.warnAdmin = warnAdmin;
     }
 
-    /**
-     * Event handler for BlockPlaceEvent.
-     * This method is called whenever a player places a block.
-     * 
-     * @param event The BlockPlaceEvent instance.
-     */
-    @EventHandler
+    // Event handler for BlockPlaceEvent.
+    // This method is called whenever a player places a block.
+    @EventHandler(priority = EventPriority.HIGH)
     public void onBlockPlace(BlockPlaceEvent event) {
         Block block = event.getBlock();
         if (block.getType() != Material.TNT) 

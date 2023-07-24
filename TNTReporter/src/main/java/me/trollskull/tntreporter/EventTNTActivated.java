@@ -3,6 +3,7 @@ package me.trollskull.tntreporter;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.Listener;
 import org.bukkit.entity.Player;
@@ -20,7 +21,7 @@ public class EventTNTActivated implements Listener {
     }
 
     // Handles the PlayerInteractEvent for TNT blocks being activated.
-    @EventHandler
+    @EventHandler(priority = EventPriority.HIGH)
     public void onPlayerInteract(PlayerInteractEvent event) {
         Block block = event.getClickedBlock();
 
