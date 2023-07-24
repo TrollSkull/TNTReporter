@@ -1,7 +1,7 @@
 # 🧨 TNT Reporter
 Lightweight plugin that detects and notify if the player has `broken/placed/collected or activated` TNT blocks.
 
-Also this plugin can block active TNT blocks and prevent the explosion, check [Features](#-features) for more info!
+Also this plugin can block active TNT blocks and prevent the explosion with a silly rocket explosion, check [Features](#-features) for more info!
 
 ### 🔗 Table of content.
 - [Features](#-features)
