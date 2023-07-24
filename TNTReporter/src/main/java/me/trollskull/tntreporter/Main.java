@@ -22,6 +22,9 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         getLogger().info("TNT Reporter is enabled! [v0.1]");
 
+        saveDefaultConfig();
+        config = getConfig();
+
         // Initialize the LanguageManager and load language files.
         languageManager = new LanguageManager(this);
         languageManager.loadLanguage();
@@ -29,15 +32,21 @@ public class Main extends JavaPlugin {
         // Initialize the WarnAdmin class to handle warning messages to administrators.
         warnAdmin = new WarnAdmin(this, languageManager);
 
-        // Register events for TNT-related interactions.
-        getServer().getPluginManager().registerEvents(new EventTNTActivated(this, warnAdmin), this);
-        getServer().getPluginManager().registerEvents(new EventTNTBroken(this, warnAdmin), this);
-        getServer().getPluginManager().registerEvents(new EventTNTPlaced(this, warnAdmin), this);
-        getServer().getPluginManager().registerEvents(new EventPrimedTNT(), this);
+        if (config.getBoolean("detectBroken")) {
+            getServer().getPluginManager().registerEvents(new EventTNTBroken(this, warnAdmin), this);
+        }
 
-        // Save the default configuration file if it does not exist.
-        saveDefaultConfig();
-        config = getConfig();
+        if (config.getBoolean("detectPlaced")) {
+            getServer().getPluginManager().registerEvents(new EventTNTPlaced(this, warnAdmin), this);
+        }
+
+        if (config.getBoolean("detectActivated")) {
+            getServer().getPluginManager().registerEvents(new EventTNTActivated(this, warnAdmin), this);
+        }
+
+        if (config.getBoolean("interruptExplosion")) {
+            getServer().getPluginManager().registerEvents(new EventPrimedTNT(this, warnAdmin), this);
+        }
     }
 
     // Send warning messages to administrators.

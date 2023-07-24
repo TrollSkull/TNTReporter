@@ -16,6 +16,7 @@ public class WarnAdmin {
         this.languageManager = languageManager;
     }
 
+    private static final String TNT_BLOCKED_MESSAGE_KEY = "tnt-blocked-message";
     private static final String ON_PLACE_MESSAGE_KEY = "on-place-message";
     private static final String ON_CLICK_MESSAGE_KEY = "on-click-message";
     private static final String ON_BREAK_MESSAGE_KEY = "on-break-message";
@@ -30,6 +31,8 @@ public class WarnAdmin {
             messageKey = ON_PLACE_MESSAGE_KEY;
         } else if (action.equalsIgnoreCase("broken")) {
             messageKey = ON_BREAK_MESSAGE_KEY;
+        } else if (action.equalsIgnoreCase("blocked")) {
+            messageKey = TNT_BLOCKED_MESSAGE_KEY;
         } else {
             messageKey = "on-player-interact-message";
         }

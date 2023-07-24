@@ -1,10 +1,8 @@
 # Config file for plugin TNTReporter.
-detectBroken: False
-detectPlaced: False
+detectBroken: True
+detectPlaced: True
 detectActivated: True
-# interruptExplosion: False
-# allowedWorlds:
-#   - world
+interruptExplosion: True
 # allowedDimensions:
 #   - overworld
 #   - nether

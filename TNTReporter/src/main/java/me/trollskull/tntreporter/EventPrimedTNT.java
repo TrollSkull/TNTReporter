@@ -7,7 +7,16 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.event.Listener;
 
 public class EventPrimedTNT implements Listener {
-    // Cancel entity-to-block conversion (Avoid explosion)
+    public Main main;
+    // private WarnAdmin warnAdmin;
+
+    // Constructor for the EventPrimedTNT class.
+    public EventPrimedTNT(Main main, WarnAdmin warnAdmin) {
+        this.main = main;
+        // this.warnAdmin = warnAdmin;
+    }
+
+    // Cancel entity-to-block conversion. (Avoid explosion)
     @EventHandler
     public void onEntityChangeBlock(EntityChangeBlockEvent event) {
         if (event.getEntityType() == EntityType.PRIMED_TNT) {
