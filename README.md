@@ -16,7 +16,9 @@ Also this plugin can block active TNT blocks and prevent the explosion with a si
 ## ✨ Features
 - ### 🔥 Prevent and moderate griefing.
      Deny the use of TNT and its explosion with this plugin, it also detects the users who placed and destroyed TNT.
-
+  
+     You can enable and disable those features whenever you want!
+  
 - ### ⚡ Very lightweight and friendly with low-resource servers.
      The plugin has a clean and lightweight code `( 9kb )` which uses few server resources.
 
