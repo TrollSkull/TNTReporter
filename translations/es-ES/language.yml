@@ -1,0 +1,9 @@
+# Language file for plugin TNTReporter.
+# Be careful with the %player% part, the player's name will be displayed there
+tntreporter-tnt-broken-header: "TNT roto por jugadores:"
+tntreporter-tnt-placed-header: "TNT colocado por jugadores:"
+tnt-blocked-message: "La explosión de TNT ha sido bloqueada en "
+on-click-message: "El jugador %player% ha activado TNT en "
+on-place-message: "El jugador %player% ha colocado TNT en "
+on-break-message: "El jugador %player% ha roto TNT en "
+on-player-interact-message: "El jugador %player% interactuó con TNT en "
