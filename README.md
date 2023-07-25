@@ -1,9 +1,9 @@
 <div align="center">
 	<img src=".assets/tntreporter-logo.png" alt="tntreporter logo" height="400">
 
-[![version](https://img.shields.io/badge/Version-b0.1-green)]()
+[![version](https://img.shields.io/badge/Version-Beta%200.1-green)]()
 [![python](https://img.shields.io/static/v1?label=Made%20with&message=Java&logo=java&labelColor=&color=orange)](https://www.python.org)
-[![license](https://img.shields.io/badge/License-MIT-yellow)]()
+[![license](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/TrollSkull/TNT-Reporter/blob/main/LICENSE)
 </div>
 
 # 🧨 TNT Reporter
