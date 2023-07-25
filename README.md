@@ -60,13 +60,5 @@ Once the project has been compiled a folder called `/target` should have been cr
 ## 🔧 How can I contribute?
 Please read **[CONTRIBUTING](https://github.com/TrollSkull/MBmanager/blob/main/CONTRIBUTING.md)** and thank you for the help!
 
-- ### 💡 Creating new features
-
-- ### 🈸 Translations
-
-- ### 🐛 Bugfix
-
-- ### ✒️ Fixing typos
-
 ## 📝 License
 **MIT License © TNT Reporter**, see the full license at **[LICENSE](https://github.com/TrollSkull/TNT-Reporter/blob/main/LICENSE)**.
