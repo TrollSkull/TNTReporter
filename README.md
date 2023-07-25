@@ -18,7 +18,7 @@ Also this plugin can block active TNT blocks and prevent the explosion with a si
      Deny the use of TNT and its explosion with this plugin, it also detects the users who placed and destroyed TNT.
   
 - ### ⚡ Very lightweight and friendly with low-resource servers.
-     The plugin has a clean and lightweight code `(14kb)` which uses few server resources.
+     The plugin has a clean and lightweight code `(16kb)` which uses few server resources.
 
 - ### 🔩 Highly customizable.
      You can create or download translation files for this plugin, check translation folders and [Translations](#-translations) for more info.
