@@ -14,6 +14,7 @@ Also this plugin can block active TNT blocks and prevent the explosion with a si
 
 ### 🔗 Table of content.
 - [Features](#-features)
+    - [Prevent and moderate Griefing](#-prevent-and-moderate-griefing)
     - [Lightweight and Friendly](#-very-lightweight-and-friendly-with-low-resource-servers)
     - [Highly ustomizable](#-highly-customizable)
     - [Modular](#-modular)
