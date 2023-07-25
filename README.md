@@ -1,3 +1,11 @@
+<div align="center">
+	<img src=".assets/tntreporter-logo.png" alt="tntreporter logo" height="400">
+
+[![version](https://img.shields.io/badge/Version-b0.1-green)]()
+[![python](https://img.shields.io/static/v1?label=Made%20with&message=Java&logo=java&labelColor=&color=orange)](https://www.python.org)
+[![license](https://img.shields.io/badge/License-MIT-yellow)]()
+</div>
+
 # 🧨 TNT Reporter
 Lightweight plugin that detects and notify if the player has `broken/placed/collected or activated` TNT blocks.
 
