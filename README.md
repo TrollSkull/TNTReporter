@@ -30,11 +30,11 @@ Also this plugin can block active TNT blocks and prevent the explosion with a si
      Code easy to maintain and update, each function/feature has its own class separated by files (Modules), making it possible to include these modules in other plugins.
 
 ## 📖 Commands and permissions
-| Command              | Description         | Permission         |
-| -------------------- | ------------------- | ------------------ |
-| /tntreporter help    | Display a help menu | tntreporter.help   |
-| /tntreporter reload  | Content Cell        | tntreporter.report |
-| /tntreporter report  | Content Cell        | none               |
+| Command              | Description            | Permission         |
+| -------------------- | ---------------------- | ------------------ |
+| /tntreporter help    | Display a help menu    | tntreporter.help   |
+| /tntreporter reload  | Reload plugin          | tntreporter.reload |
+| /tntreporter report  | Show players TNT stats | tntreporter.report |
 
 ## 📸 Screenshots & Media
    - #### 📼 Demo video and screenshots.
