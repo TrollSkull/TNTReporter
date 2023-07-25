@@ -5,9 +5,15 @@ main: ${mainClass}
 version: ${version}
 url: ${url}
 commands:
-  tntreport:
+  tntreporter:
+    description: Main command for TNTReporter plugin
+    usage: /tntreporter <help|report|reload>
+    permission: tntreporter.use
+  tntreporterReport:
     description: Show the TNT report!
-    permission: ServerOperator
-  tntreload:
+    usage: /tntreporter report
+    permission: tntreporter.report
+  tntreporterReload:
     description: Reload plugin!
-    permission: ServerOperator
+    usage: /tntreporter reload
+    permission: tntreporter.reload

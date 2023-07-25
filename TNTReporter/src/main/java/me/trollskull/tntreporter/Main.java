@@ -3,11 +3,12 @@ package me.trollskull.tntreporter;
 import org.bukkit.configuration.file.FileConfiguration;
 import net.md_5.bungee.api.chat.BaseComponent;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.command.CommandSender;
-import org.bukkit.command.Command;
 import org.bukkit.entity.Player;
 import java.util.HashMap;
 import org.bukkit.Bukkit;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+
 import java.util.Map;
 
 public class Main extends JavaPlugin {
@@ -16,6 +17,7 @@ public class Main extends JavaPlugin {
 
     public FileConfiguration config;
     private LanguageManager languageManager;
+    public CommandTNTReporter commandTNTReporter;
     private WarnAdmin warnAdmin;
 
     @Override
@@ -47,42 +49,25 @@ public class Main extends JavaPlugin {
         if (config.getBoolean("interruptExplosion")) {
             getServer().getPluginManager().registerEvents(new EventPrimedTNT(this, warnAdmin), this);
         }
+
+        commandTNTReporter = new CommandTNTReporter(this);
+        getCommand("tntreporter").setExecutor(commandTNTReporter);
     }
 
-    // Send warning messages to administrators.
-    @Override
-    public void onDisable() {
-        getLogger().info("TNT Reporter is disabled.");
-    }
-
-    // Send warning messages to administrators.
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (command.getName().equalsIgnoreCase("tntreporter report")) {
-            sender.sendMessage("TNT Report:");
-            sender.sendMessage("TNT broken by players:");
-            for (Map.Entry<String, Integer> entry : tntBrokenByPlayers.entrySet()) {
-                String playerName = entry.getKey();
-                int tntBroken = entry.getValue();
-                sender.sendMessage(playerName + ": " + tntBroken);
-            }
-
-            sender.sendMessage("TNT placed by players:");
-            for (Map.Entry<String, Integer> entry : tntPlacedByPlayers.entrySet()) {
-                String playerName = entry.getKey();
-                int tntPlaced = entry.getValue();
-                sender.sendMessage(playerName + ": " + tntPlaced);
-            }
-
-            return true;
-        } else if (command.getName().equalsIgnoreCase("tntreporter reload") && sender.hasPermission("tntreporter.reload")) {
-            // Reload the configuration file.
+        if (args.length == 1 && args[0].equalsIgnoreCase("reload")) {
             reloadConfig();
             config = getConfig();
             sender.sendMessage("TNT Reporter configuration reloaded.");
             return true;
         }
         return false;
+    }
+
+    @Override
+    public void onDisable() {
+        getLogger().info("TNT Reporter is disabled.");
     }
 
     // Send warning messages to administrators.

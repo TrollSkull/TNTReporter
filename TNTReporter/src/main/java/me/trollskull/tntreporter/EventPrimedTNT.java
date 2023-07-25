@@ -40,7 +40,7 @@ public class EventPrimedTNT implements Listener {
         }
     }
 
-    // Method to generate the comic rocket explosion.
+    // Method to generate the silly rocket explosion.
     private void spawnComedyFirework(Location location) {
         Firework firework = location.getWorld().spawn(location, Firework.class);
         FireworkMeta fireworkMeta = firework.getFireworkMeta();
