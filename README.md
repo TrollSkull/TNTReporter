@@ -54,7 +54,7 @@ Then you simply have to `Right Click > Run Maven Commands > Install`.
 Once the project has been compiled a folder called `/target` should have been created, inside that folder you will find the compiled plugin (tntreporter.jar).
 
 ## 🔧 How can I contribute?
-Please read **[CONTRIBUTING](https://github.com/TrollSkull/MBmanager/blob/main/CONTRIBUTING.md)** and thank you for the help!
+Please read **[CONTRIBUTING](https://github.com/TrollSkull/TNTReporter/blob/main/CONTRIBUTING.md)** and thank you for the help!
 
 ## 📝 License
 **MIT License © TNT Reporter**, see the full license at **[LICENSE](https://github.com/TrollSkull/TNT-Reporter/blob/main/LICENSE)**.
