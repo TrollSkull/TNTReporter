@@ -47,8 +47,7 @@ Also this plugin can block active TNT blocks and prevent the explosion with a si
 | /tntreporter report  | Show players TNT stats | tntreporter.report |
 
 ## 📸 Screenshots & Media
-   - #### 📼 Demo video and screenshots.
-     <img src="/.assets/demo.gif" width="720" height="448"/>
+<img src="/.assets/demo.gif" width="720" height="448"/>
 
 ## 📦 Compiling
 First you need to download some requirements such as [Maven](https://maven.apache.org/) and [Java SE 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
