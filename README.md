@@ -11,10 +11,6 @@ Also this plugin can block active TNT blocks and prevent the explosion with a si
 - [Screenshots](#-screenshots--media)
 - [Compiling](#-compiling)
 - [Contributing](#-how-can-i-contribute)
-    - [Creating new features](#-creating-new-features)
-    - [Translations](#-translations)
-    - [Bugfix](#-bugfix)
-    - [Fixing typos](#%EF%B8%8F-fixing-typos)
 - [License](#-license)
 
 ## ✨ Features
