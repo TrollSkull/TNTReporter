@@ -22,8 +22,9 @@ Also this plugin can block active TNT blocks and prevent the explosion with a si
 
 - ### 🔩 Highly customizable.
      You can create or download translation files for this plugin, check translation folders and [Translations](#-translations) for more info.
-
-     Choose in which dimensions and worlds you want the plugin to fulfill its function, also you can enable and disable those features whenever you want!
+  
+     `(Disabled for now, stay tuned!)`
+     ~Choose in which dimensions and worlds you want the plugin to fulfill its function~, also you can enable and disable those features whenever you want!
 
 - ### 📚 Modular.
      Code easy to maintain and update, each function/feature has its own class separated by files (Modules), making it possible to include these modules in other plugins.
