@@ -23,9 +23,11 @@ Steps to reproduce the behavior:
 4. See issue!
 
 **Expected behavior**
+
 A clear description of what you expected to happen.
 
 **Screenshots and media**
+
 If applicable, add screenshots/video to help explain your problem.
 
 **System description**
