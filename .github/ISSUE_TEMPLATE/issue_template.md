@@ -1,5 +1,5 @@
 ---
-name: Example name.
+name: TNTReporter issue template!
 about: Create a report to help us improve.
 issue name: Issue report.
 about issue: Description about your issue.
