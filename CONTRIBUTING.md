@@ -1,4 +1,4 @@
-# 🎊 Wellcome to contributing!
+#  🥳 Wellcome to contributing!
 To contribute to this project, please follow a `"fork and pull request"` workflow. Please do not try to push directly to this repo unless you are maintainer.
 
 ## 🗺️ Guidelines
