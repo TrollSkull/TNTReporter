@@ -49,7 +49,7 @@ Also this plugin can block active TNT blocks and prevent the explosion with a si
 ## 📸 Screenshots & Media
 <img src="/.assets/demo.gif" width="720" height="448"/>
 
-## 📦 Build and Compiling
+## 📦 Build and compiling
 First you need to download some requirements such as [Maven](https://maven.apache.org/) and [Java SE 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 
 I usually use [Visual Studio Code](https://code.visualstudio.com/), therefore it will be the IDE in which we will be compiling with Maven.
