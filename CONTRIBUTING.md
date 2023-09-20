@@ -13,4 +13,4 @@ Also remember to maintain great documentation and testing! 🙂
 
 To fix a bug, add a feature or any change we recommend to use our [labels](https://github.com/TrollSkull/TNTReporter/labels) and [formatting](https://github.com/TrollSkull/TNTReporter/blob/main/.github/ISSUE_TEMPLATE/issue_template.md) before making your request, this will help us better handle pull requests and issues.
 
-### These are some things you should keep in mind, thanks for your help and happy coding! - TrollSkull
+#### These are some things you should keep in mind, thanks for your help and happy coding! - TrollSkull
