@@ -46,7 +46,7 @@ Also this plugin can block active TNT blocks and prevent the explosion with a si
 | /tntreporter reload  | Reload plugin          | tntreporter.reload |
 | /tntreporter report  | Show players TNT stats | tntreporter.report |
 
-## 📸 Screenshots & Media
+## 📸 Screenshots and media
 <img src="/.assets/demo.gif" width="720" height="448"/>
 
 ## 📦 Build and compiling
